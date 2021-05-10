@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>fr.exia</groupId>
-  <artifactId>Insane_Vehicles</artifactId>
+  <artifactId>insanevehicles</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>Insane_Vehicles</name>
+  <name>insanevehicles</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -73,4 +73,13 @@
     </pluginManagement>
   </build>
   <packaging>pom</packaging>
+
+  <modules>
+  	
+  	<module>insanevehicle.view</module>
+  	<module>insanevehicle.model</module>
+  	<module>insanevehicle.contrast</module>
+  	<module>insanevehicle.main</module>
+  	<module>insanevehicle.controller</module>
+  </modules>
 </project>
